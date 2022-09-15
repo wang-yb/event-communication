@@ -1,13 +1,15 @@
 {
   "name": "event-communication",
-  "version": "1.0.0",
-  "description": "事件通信工具",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "微前端事件通信工具",
+  "main": "./src/index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
+    "微前端",
     "事件通信"
   ],
   "author": "wang.yb",
